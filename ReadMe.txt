@@ -1,10 +1,14 @@
 Application Type: iOS Mobile App
 
+------------------------------------------------------------------------------------------------------------------------------------------
+
 Technology Used: Xcode, Swift
 
 Xcode is an integrated development environment for macOS containing a suite of software development tools developed by Apple for developing software for macOS, iOS, watchOS, and tvOS. We will use it to build an iOS App alone.
 
 Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. for iOS, macOS, watchOS, tvOS, and Linux. Swift is designed to work with Apple's Cocoa and Cocoa Touch frameworks and the large body of existing Objective-C code written for Apple products. We will be using the Swift language to develop our app in the Xcode IDE. We could have used Objective C but Swift is preferred since its style conventions allow it to be read out loud as plain English. Communicating Swift code to peers is linguistically easier and it is very similar to Python in terms of cleanliness.
+
+------------------------------------------------------------------------------------------------------------------------------------------
 
 How To Run & Compile
 
@@ -25,6 +29,7 @@ because a project in Xcode is a .xcodeproj folder
 Step 4) Now the project is open in Xcode! Run the app by clicking the play button at the top
 left corner of Xcode!
 
+------------------------------------------------------------------------------------------------------------------------------------------
 
 What Features Were Implemented?
 
@@ -41,6 +46,8 @@ What Features Were Implemented?
 •    Sorts current To Do items by Start Date
 •    Persistence: if you close and re-open the application, should your current list and history list come back. Data is stored locally on iPhone!
 •    Single user. No database.
+
+------------------------------------------------------------------------------------------------------------------------------------------
 
 How Was A To Do Item Represented?
 
@@ -69,6 +76,8 @@ class toDoItem {
 
 Why A Class? Classes allow us to make our data representation more abstract. Classes also allow to make many instances of the same type while maintaining different states across these instanes.
     This allows for an array of type class toDoItem.
+
+------------------------------------------------------------------------------------------------------------------------------------------
 
 Specifics:
 How many views/screens?
