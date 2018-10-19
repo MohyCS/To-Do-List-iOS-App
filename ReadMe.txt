@@ -1,3 +1,10 @@
+Application Type: iOS Mobile App
+
+Technology Used: Xcode, Swift
+
+Xcode is an integrated development environment for macOS containing a suite of software development tools developed by Apple for developing software for macOS, iOS, watchOS, and tvOS. We will use it to build an iOS App alone.
+
+Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. for iOS, macOS, watchOS, tvOS, and Linux. Swift is designed to work with Apple's Cocoa and Cocoa Touch frameworks and the large body of existing Objective-C code written for Apple products. We will be using the Swift language to develop our app in the Xcode IDE. We could have used Objective C but Swift is preferred since its style conventions allow it to be read out loud as plain English. Communicating Swift code to peers is linguistically easier and it is very similar to Python in terms of cleanliness.
 
 How To Run & Compile
 
